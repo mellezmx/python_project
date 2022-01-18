@@ -12,7 +12,7 @@ import subprocess
 
 def main():
     with open('outpout.txt') as f:
-        subprocess.run('dir', shell=True, stdout=f, text=True)
+        subprocess.run('dir', shell=True, stdout=f, text=True)#not working yet
 
 
 if __name__ == '__main__':
